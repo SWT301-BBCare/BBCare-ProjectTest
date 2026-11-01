@@ -1,0 +1,9 @@
+tcId,username,password,expectedResult,expectedMessage
+TC-LOGIN-001,khachhang@gmail.com,BBCare@2026,SUCCESS,
+TC-LOGIN-002,admin@bbcare.vn,BBCare@2026,SUCCESS,
+TC-LOGIN-003,ha.nguyen@bbcare.vn,BBCare@2026,SUCCESS,
+TC-LOGIN-004,khachhang@gmail.com,Wrong@123,FAIL,Mật khẩu không chính xác. Vui lòng kiểm tra lại!
+TC-LOGIN-005,notexist999@gmail.com,BBCare@2026,FAIL,Tài khoản hoặc số điện thoại không tồn tại trong hệ thống BBCare!
+TC-LOGIN-006,inactive@bbcare.vn,BBCare@2026,FAIL,Tài khoản chưa được kích hoạt
+TC-LOGIN-007,,BBCare@2026,REQUIRED,
+TC-LOGIN-008,khachhang@gmail.com,,REQUIRED,
