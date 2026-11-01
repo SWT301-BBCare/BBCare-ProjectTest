@@ -1,0 +1,13 @@
+tcId,email,password,fullName,phone,address,expectedResult,expectedMessage
+TC-REG-001,user{RANDOM}@gmail.com,BBCare@123,Nguyễn Văn An,0905123456,123 Lê Duẩn Đà Nẵng,SUCCESS,Đăng ký tài khoản thành công
+TC-REG-002,user{RANDOM}@gmail.com,Abcd@123,Trần Thị Bình,0912345678,45 Điện Biên Phủ Đà Nẵng,SUCCESS,Đăng ký tài khoản thành công
+TC-REG-003,user{RANDOM}@gmail.com,Abc@123,Nguyễn Văn An,0905123456,123 Lê Duẩn Đà Nẵng,FAIL,Mật khẩu phải có ít nhất 8 ký tự!
+TC-REG-004,user{RANDOM}@gmail.com,Abcd@1234,Nguyễn Văn An,0905123456,123 Lê Duẩn Đà Nẵng,SUCCESS,Đăng ký tài khoản thành công
+TC-REG-005,user{RANDOM}@gmail.com,BBCare@123,Nguyễn Văn An,090512345,123 Lê Duẩn Đà Nẵng,FAIL,Số điện thoại phải gồm 10 số và bắt đầu bằng số 0!
+TC-REG-006,user{RANDOM}@gmail.com,BBCare@123,Nguyễn Văn An,09051234567,123 Lê Duẩn Đà Nẵng,FAIL,Số điện thoại phải gồm 10 số và bắt đầu bằng số 0!
+TC-REG-007,user{RANDOM}@gmail.com,BBCare@123,Nguyễn Văn An,8490512345,123 Lê Duẩn Đà Nẵng,FAIL,Số điện thoại phải gồm 10 số và bắt đầu bằng số 0!
+TC-REG-008,khachhang@gmail.com,BBCare@123,Nguyễn Văn An,0905123456,123 Lê Duẩn Đà Nẵng,FAIL,Email này đã được sử dụng. Vui lòng chọn email khác hoặc đăng nhập!
+TC-REG-009,user{RANDOM}@gmail.com,Abcdefgh1234567890123456789012345,Nguyễn Văn An,0905123456,123 Lê Duẩn Đà Nẵng,FAIL,Mật khẩu không được vượt quá 32 ký tự!
+TC-REG-010,user{RANDOM}@gmail.com,BBCare@123,Nguyen Van 123,0905123456,123 Lê Duẩn Đà Nẵng,FAIL,Họ và tên chỉ được chứa chữ cái!
+TC-REG-011,,BBCare@123,Nguyễn Văn An,0905123456,123 Lê Duẩn Đà Nẵng,REQUIRED,
+TC-REG-012,user{RANDOM}@gmail.com,BBCare@123,Nguyễn Văn An,0905123456,,REQUIRED,
