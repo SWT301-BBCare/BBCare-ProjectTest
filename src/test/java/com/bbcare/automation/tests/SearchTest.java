@@ -1,6 +1,7 @@
 package com.bbcare.automation.tests;
 
 import com.bbcare.automation.base.BaseTest;
+import com.bbcare.automation.pages.StorePage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
