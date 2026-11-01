@@ -192,7 +192,11 @@ public class BookingPage extends BasePage {
         waitVisible(successTitle);
         if ("COD".equalsIgnoreCase(paymentMethod)) {
             click(payTabCod);
-            click(confirmCodBtn);
+            slowDown();
+            // Nếu có nút xác nhận thì bấm, nếu web tự chốt rồi thì không bị treo nữa
+            if (!driver.findElements(confirmCodBtn).isEmpty() && driver.findElement(confirmCodBtn).isDisplayed()) {
+                click(confirmCodBtn);
+            }
         } else {
             click(payTabQr);
             click(confirmQrPaidBtn);
