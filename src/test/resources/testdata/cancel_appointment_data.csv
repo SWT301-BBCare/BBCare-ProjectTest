@@ -1,0 +1,4 @@
+tcId,apptCode,bankCode,accountNumber,accountHolder,cancelReasonValue,expectedResult,expectedMessage
+TC-CANCEL-001,#BK-9650,VCB,,,doi_gio,KEEP,
+TC-CANCEL-002,#BK-9650,MB,0908786168,NGUYEN VAN AN,thay_doi_dot_xuat,SUCCESS,Đã hủy ca [#BK-9650]
+TC-CANCEL-003,#BK-8825,TCB,1903456789,LE GIA HUY,khoi_benh,SUCCESS,Đã hủy ca [#BK-8825]

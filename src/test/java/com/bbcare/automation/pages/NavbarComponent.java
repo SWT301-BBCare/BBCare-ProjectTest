@@ -1,4 +1,4 @@
-package com.bbcare.automation.pages.components;
+package com.bbcare.automation.pages;
 
 import com.bbcare.automation.base.BasePage;
 import org.openqa.selenium.By;
