@@ -1,0 +1,4 @@
+tcId,skillKey,patientName,age,medicalNote,shiftKey,nurseId,paymentMethod,expectedResult,expectedMessage
+TC-BOOK-001,thay_bang,Nguyễn Văn An,70,Chăm sóc vết mổ sau xuất viện,CA_5H,hong,VIETQR,SUCCESS,Đặt Ca Thành Công!
+TC-BOOK-002,ho_tro_oxy,Trần Thị Bích,65,Theo dõi SpO2 và huyết áp tại nhà,CA_5H_2,minh,COD,SUCCESS,Đặt Ca Thành Công!
+TC-BOOK-003,,Nguyễn Văn An,70,Kiểm tra sức khỏe tổng quát,CA_5H,hong,VIETQR,FAIL,Vui lòng chọn ít nhất 1 nhu cầu dịch vụ y tế cho người bệnh.
