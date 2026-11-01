@@ -1,0 +1,4 @@
+tcId,category,starRating,senderName,senderPhone,content,expectedResult,expectedMessage
+TC-FB-001,Khen ngợi điều dưỡng,5,Nguyễn Văn An,0908786168,Điều dưỡng chăm sóc rất tận tình và chu đáo!,SUCCESS,Đã gửi đánh giá
+TC-FB-002,Góp ý dịch vụ,4,Nguyễn Văn An,0908786168,Điều dưỡng đúng giờ và theo dõi sinh hiệu kỹ lưỡng.,SUCCESS,Đã gửi đánh giá
+TC-FB-003,Khiếu nại giờ giấc,2,Nguyễn Văn An,0908786168,,FAIL,Vui lòng nhập nội dung đánh giá hoặc góp ý của bạn!
