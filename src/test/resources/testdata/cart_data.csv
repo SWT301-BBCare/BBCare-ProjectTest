@@ -1,0 +1,9 @@
+tcId,productId,actionType,clickTimes,expectedQty,expectedMessage
+TC-CART-001,p_cpap_bipap,buy,1,1,
+TC-CART-002,p_cpap_bipap,buy,2,2,
+TC-CART-003,p_cpap_bipap,rent,1,1,
+TC-CART-004,p_wheelchair,buy,3,3,
+TC-CART-005,p_tpcn1,buy,2,2,
+TC-CART-006,p_cpap_bipap,REMOVE,1,0,OUT_OF_STOCK
+TC-CART-007,p_out_of_stock,buy,1,0,OUT_OF_STOCK
+
